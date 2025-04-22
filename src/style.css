@@ -1,0 +1,128 @@
+/* Resetando o estilo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Estilo da seção Sobre */
+#sobre {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.foto img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.descricao h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Estilo da seção Projetos */
+#projetos {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.projeto a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.projeto img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.projeto img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo das Habilidades */
+#habilidades {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.habilidade {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.habilidade h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.habilidade p {
+    font-size: 1rem;
+}
+
+/* Estilo do Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
